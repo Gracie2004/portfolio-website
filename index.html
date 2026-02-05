@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grace Nganga | Data Analyst</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="main-nav">
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<!-- HERO SECTION -->
+<header class="hero">
+    <img src="/images/profile.jpg" alt="Grace Nganga" class="profile-photo">
+    <h1>Grace Nganga's Portfolio Website</h1>
+    <p class="subtitle">Data Analysis | Data Science | Freelancer</p>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-container">
+    <h2>About Me</h2>
+
+    <p class="about-text">
+      I am a data science enthusiast with a strong foundation in applied statistics and computing.
+      I am passionate about transforming data into insights that support evidence-based decision-making.
+      My interests include statistical modeling, data analysis, and building data-driven solutions
+      for real-world problems.
+    </p>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="dashboard-section">
+    <!-- Left: Skills -->
+    <div class="skills-panel">
+        <h2>Skills</h2>
+        <div class="skill">
+            <label>Python Programming</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <label>R Programming</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <label>SQL</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <label>Jupyter Notebook</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <label>Power BI</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <label>Excel</label>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 85%;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- RIGHT: PROJECT TITLES DASHBOARD -->
+    <div class="projects-panel">
+        <h2>Projects</h2>
+
+        <ul class="projects-list">
+            <li>World Happiness Report Analysis (Jupyter-notebook-project)</li>
+            <li>Heart Disease Analysis (R)</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-card">
+        <h3>World Happiness Report Analysis</h3>
+        <p>Used exploratory data analysis on the World Happiness Report dataset.</p>
+        <img src="/images/project1.png" alt="Project Screenshot" class="project-image">
+        <a href="https://github.com/Gracie2004/Jupyter-notebook-project/blob/main/Grace_Project.ipynb" target="_blank" class="view-button">View</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Heart Disease Analysis using R</h3>
+        <p>This report analyzes the Heart Disease dataset from UCI with 303 patients.</p>
+        <img src="/images/project2.png" alt="Project Screenshot" class="project-image">
+        <a href="https://github.com/Gracie2004/test-repo2/blob/main/heart_analysis.html" target="_blank" class="view-button">View</a>
+    </div>
+</section>
+<!-- Contact -->
+<section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <div class="contact-container">
+        <!-- Left: Visitor Form -->
+        <div class="contact-left">
+            <div class="contact-item">
+                <label for="visitor-name">Name</label>
+                <input type="text" id="visitor-name" name="visitor-name" placeholder="Your Name" required>
+            </div>
+            <div class="contact-item">
+                <label for="visitor-email">Email</label>
+                <input type="email" id="visitor-email" name="visitor-email" placeholder="Your Email" required>
+            </div>
+            <div class="contact-item">
+                <label for="visitor-message">Message</label>
+                <textarea id="visitor-message" name="visitor-message" rows="5" placeholder="Type your message..." required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </div>
+
+        <!-- Center Dotted Line -->
+        <div class="dotted-line"></div>
+
+        <!-- Right: Your Info -->
+        <div class="contact-right">
+            <div class="contact-item">
+                <label>Address</label>
+                <p>Eldoret, Kenya</p>
+            </div>
+            <div class="contact-item">
+                <label>Phone</label>
+                <p>+254 702277553</p>
+            </div>
+            <div class="contact-item">
+                <label>Email</label>
+                <p>gracenganga293@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <label>Social</label>
+                <p>
+                    <a href="https://github.com/Gracie2004" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/grace-w-ng-ang-a-5a2b4636a" target="_blank">
+                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Grace Nganga</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

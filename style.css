@@ -140,6 +140,23 @@ section {
     border-radius: 10px;
     animation: fillSkill 1.5s ease-in-out forwards;
 }
+.skill-fill {
+    height: 12px;
+    background: #4CAF50;
+    position: relative;
+}
+
+.skill-fill:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: -25px;
+    right: 0;
+    background: black;
+    color: white;
+    padding: 3px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+}
 
 @keyframes fillSkill {
     from { width: 0; }

@@ -1,257 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Grace Nganga | Data Scientist</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+        content="Grace Ng'ang'a - Data Scientist, Data Analyst and Freelancer specializing in statistics, data analysis and computing.">
+
+    <title>Grace Nganga | Data Scientist</title>
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
+
 <body>
 
+    <!-- ================= NAVIGATION ================= -->
+
     <nav class="main-nav">
-  <ul>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-<!-- HERO SECTION -->
-<header class="hero">
-    <img src="profile.jpg" alt="Grace Nganga" class="profile-photo">
-    <h1>Grace Ng'ang'a's Portfolio</h1>
-    <p class="subtitle">Data Analyst | Data Scientist | Freelancer</p>
-</header>
+        <ul>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="about-container">
-    <h2>About Me</h2>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
 
-    <p class="about-text">
-      I am a data science enthusiast with a strong foundation in applied statistics and computing.
-      I am passionate about transforming data into insights that support evidence-based decision-making.
-      My interests include statistical modeling, data analysis, and building data-driven solutions
-      for real-world problems.
-    </p>
-  </div>
-</section>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
 
-
-<!-- SKILLS -->
-<section id="skills" class="dashboard-section">
-    <!-- Left: Skills -->
-    <div class="skills-panel">
-        <h2>Skills</h2>
-        <div class="skill">
-            <label>Python Programming</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 90%;" title="90%"></div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <label>R Programming</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 75%;" title="75%"></div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <label>SPSS</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 85%;" title="85%"></div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <label>SQL</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 80%;" title="80%"></div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <label>Jupyter Notebook</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 90%;" title="90%"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <label>Power BI</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 75%;" title="75%"></div>
-            </div>
-        </div>
-
-        <div class="skill">
-            <label>Excel</label>
-            <div class="skill-bar">
-                <div class="skill-fill" style="width: 85%;" title="85%"></div>
-            </div>
-        </div>
-    </div>     
-        
-    <!-- RIGHT: PROJECT TITLES DASHBOARD -->
-    <div class="projects-panel">
-        <h2>List of Projects</h2>
-
-        <ul class="projects-list">
-            <li>Heart Analysis using Jupyter Notebook</li>
-            <li>World Happiness Report Analysis (Jupyter-notebook-project)</li>
-            <li>Heart Disease Analysis (R)</li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
-    </div>
-</section>
+    </nav>
 
-<!-- Projects -->
-<section id="projects" class="projects-section">
-    <h2>Projects</h2>
-    <div class="project-card">
-        <h3>Heart Analysis using Jupyter Notebook</h3>
-        <p>Developed an end-to-end heart disease prediction pipeline in Python using Random Forest, achieving 85.8% AUC, covering data analysis, model fine-tuning, and production deployment with a Flask REST API.</p>
-        <img src="project3.png" alt="Project Screenshot" class="project-image">
-        <a href="https://github.com/Gracie2004/Heart-analysis-using-jupyter-notebook/blob/main/Heart.ipynb" target="_blank" class="view-button">View</a>
-    </div>
-    <div class="project-card">
-        <h3>World Happiness Report Analysis</h3>
-        <p>Used exploratory data analysis on the World Happiness Report dataset.</p>
-        <img src="project1.png" alt="Project Screenshot" class="project-image">
-        <a href="https://github.com/Gracie2004/Jupyter-notebook-project/blob/main/Grace_Project.ipynb" target="_blank" class="view-button">View</a>
-    </div>
 
-    <div class="project-card">
-        <h3>Heart Disease Analysis using R</h3>
-        <p>This report analyzes the Heart Disease dataset from UCI with 303 patients.</p>
-        <img src="project2.png" alt="Project Screenshot" class="project-image">
-        <a href="https://github.com/Gracie2004/test-repo2/blob/main/heart_analysis.html" target="_blank" class="view-button">View</a>
-    </div>
-</section>
+    <!-- ================= HERO SECTION ================= -->
 
-<!-- Contact -->
-<section id="contact" class="contact-section">
-    <h2>Contact</h2>
-    <div class="contact-container">
-        <!-- Left: Visitor Form -->
-        <div class="contact-left">
-            <form id="contact-form" action="https://formspree.io/f/mbdzlrkv" method="POST">
-                <div class="contact-item">
-                    <label for="visitor-name">Name</label>
-                    <input type="text" id="visitor-name" name="visitor-name" placeholder="Your Name" required>
-                </div>
-                <div class="contact-item">
-                    <label for="visitor-email">Email</label>
-                    <input type="email" id="visitor-email" name="visitor-email" placeholder="Your Email" required>
-                </div>
-                <div class="contact-item">
-                    <label for="visitor-message">Message</label>
-                    <textarea id="visitor-message" name="visitor-message" rows="5" placeholder="Type your message..." required></textarea>
-                </div>
-                <button type="submit" id="submit-btn">Send</button>
+    <header class="hero">
 
-                <p id="form-success" style="display:none; color: #4CAF50; margin-top: 10px; font-weight: 500;">
-                    ✅ Message sent! I'll get back to you soon.
-                </p>
-                <p id="form-error" style="display:none; color: #e53935; margin-top: 10px; font-weight: 500;">
-                    ❌ Something went wrong. Please try again.
-                </p>
-            </form>
+        <img src="profile.jpg"
+            alt="Grace Ng'ang'a"
+            class="profile-photo">
+
+        <h1>Grace Ng'ang'a's Portfolio</h1>
+
+        <p class="subtitle">
+            Data Analyst | Data Scientist | Freelancer
+        </p>
+
+    </header>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about">
+
+        <div class="about-container">
+
+            <h2>About Me</h2>
+
+            <p class="about-text">
+                I am a data science enthusiast with a strong foundation
+                in applied statistics and computing. I am passionate about
+                transforming data into insights that support evidence-based
+                decision-making. My interests include statistical modeling,
+                data analysis, and building data-driven solutions for
+                real-world problems.
+            </p>
+
         </div>
 
-        <!-- Center Dotted Line -->
-        <div class="dotted-line"></div>
+    </section>
 
-        <!-- Right: Your Info -->
-        <div class="contact-right">
-            <div class="contact-item">
-                <label>Address</label>
-                <p>Eldoret, Kenya</p>
+
+    <!-- ================= SKILLS SECTION ================= -->
+
+    <section id="skills" class="dashboard-section">
+
+        <!-- LEFT: SKILLS -->
+
+        <div class="skills-panel">
+
+            <h2>Skills</h2>
+
+
+            <div class="skill">
+
+                <label>Python Programming</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 90%;"
+                        title="90%">
+                    </div>
+                </div>
+
             </div>
-            <div class="contact-item">
-                <label>Phone</label>
-                <p>+254 702277553</p>
+
+
+            <div class="skill">
+
+                <label>R Programming</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 75%;"
+                        title="75%">
+                    </div>
+                </div>
+
             </div>
-            <div class="contact-item">
-                <label>Email</label>
-                <p>gracenganga293@gmail.com</p>
+
+
+            <div class="skill">
+
+                <label>SPSS</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 85%;"
+                        title="85%">
+                    </div>
+                </div>
+
             </div>
-            <div class="contact-item">
-                <label>Social</label>
-                <p>
-                    <a href="https://github.com/Gracie2004" target="_blank">
-                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="social-icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/grace-w-ng-ang-a-5a2b4636a" target="_blank">
-                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
-                    </a>
-                </p>
+
+
+            <div class="skill">
+
+                <label>SQL</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 80%;"
+                        title="80%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <label>Jupyter Notebook</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 90%;"
+                        title="90%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <label>Power BI</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 75%;"
+                        title="75%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <label>Excel</label>
+
+                <div class="skill-bar">
+                    <div class="skill-fill"
+                        style="width: 85%;"
+                        title="85%">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT: PROJECT LIST -->
+
+        <div class="projects-panel">
+
+            <h2>List of Projects</h2>
+
+            <ul class="projects-list">
+
+                <li>
+                    Heart Analysis using Jupyter Notebook
+                </li>
+
+                <li>
+                    World Happiness Report Analysis
+                    (Jupyter Notebook Project)
+                </li>
+
+                <li>
+                    Heart Disease Analysis (R)
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section id="projects" class="projects-section">
+
+        <h2>Projects</h2>
+
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <h3>
+                Heart Analysis using Jupyter Notebook
+            </h3>
+
+            <p>
+                Developed an end-to-end heart disease prediction
+                pipeline in Python using Random Forest, achieving
+                85.8% AUC, covering data analysis, model fine-tuning,
+                and production deployment with a Flask REST API.
+            </p>
+
+            <img src="project3.png"
+                alt="Heart Analysis Jupyter Notebook Project"
+                class="project-image">
+
+            <a href="https://github.com/Gracie2004/Heart-analysis-using-jupyter-notebook/blob/main/Heart.ipynb"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-button">
+                View Project
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <h3>
+                World Happiness Report Analysis
+            </h3>
+
+            <p>
+                Used exploratory data analysis on the World Happiness
+                Report dataset to explore patterns and relationships
+                within the data.
+            </p>
+
+            <img src="project1.png"
+                alt="World Happiness Report Analysis Project"
+                class="project-image">
+
+            <a href="https://github.com/Gracie2004/Jupyter-notebook-project/blob/main/Grace_Project.ipynb"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-button">
+                View Project
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card">
+
+            <h3>
+                Heart Disease Analysis using R
+            </h3>
+
+            <p>
+                This report analyzes the Heart Disease dataset
+                from UCI with 303 patients using R for statistical
+                analysis and data visualization.
+            </p>
+
+            <img src="project2.png"
+                alt="Heart Disease Analysis using R"
+                class="project-image">
+
+            <a href="https://github.com/Gracie2004/test-repo2/blob/main/heart_analysis.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-button">
+                View Project
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+
+
+            <!-- LEFT: CONTACT FORM -->
+
+            <div class="contact-left">
+
+                <form id="contact-form"
+                    action="https://formspree.io/f/mbdzlrkv"
+                    method="POST">
+
+
+                    <div class="contact-item">
+
+                        <label for="visitor-name">
+                            Name
+                        </label>
+
+                        <input type="text"
+                            id="visitor-name"
+                            name="visitor-name"
+                            placeholder="Your Name"
+                            required>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <label for="visitor-email">
+                            Email
+                        </label>
+
+                        <input type="email"
+                            id="visitor-email"
+                            name="visitor-email"
+                            placeholder="Your Email"
+                            required>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <label for="visitor-message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="visitor-message"
+                            name="visitor-message"
+                            rows="5"
+                            placeholder="Type your message..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button type="submit"
+                        id="submit-btn">
+                        Send
+                    </button>
+
+
+                    <!-- SUCCESS MESSAGE -->
+
+                    <p id="form-success"
+                        style="display:none; color:#4CAF50; margin-top:10px; font-weight:500;">
+
+                        ✅ Message sent!
+                        I'll get back to you soon.
+
+                    </p>
+
+
+                    <!-- ERROR MESSAGE -->
+
+                    <p id="form-error"
+                        style="display:none; color:#e53935; margin-top:10px; font-weight:500;">
+
+                        ❌ Something went wrong.
+                        Please try again.
+
+                    </p>
+
+                </form>
+
+            </div>
+
+
+            <!-- DOTTED LINE -->
+
+            <div class="dotted-line"></div>
+
+
+            <!-- RIGHT: CONTACT INFORMATION -->
+
+            <div class="contact-right">
+
+
+                <!-- ADDRESS -->
+
+                <div class="contact-item">
+
+                    <label>Address</label>
+
+                    <p>
+                        Eldoret, Kenya
+                    </p>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="contact-item">
+
+                    <label>Phone</label>
+
+                    <p>
+
+                        <a href="tel:+254702277553">
+                            +254 702277553
+                        </a>
+
+                    </p>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="contact-item">
+
+                    <label>Email</label>
+
+                    <p>
+
+                        <a href="mailto:gracenganga293@gmail.com">
+                            gracenganga293@gmail.com
+                        </a>
+
+                    </p>
+
+                </div>
+
+
+                <!-- GITHUB & LINKEDIN -->
+
+                <div class="contact-item">
+
+                    <label>Professional Profiles</label>
+
+                    <p>
+
+                        <a href="https://github.com/Gracie2004"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub">
+
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+                                alt="GitHub"
+                                class="social-icon">
+
+                        </a>
+
+
+                        <a href="https://www.linkedin.com/in/grace-w-ng-ang-a-5a2b4636a"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn">
+
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+                                alt="LinkedIn"
+                                class="social-icon">
+
+                        </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- ABOUT -->
+        <div class="footer-column footer-about">
+            <h3>Grace Ng'ang'a</h3>
+
+            <p>
+                Data Analyst | Data Scientist | Freelancer
+            </p>
+
+            <p class="footer-description">
+                Turning data into meaningful insights and
+                practical solutions through statistics and computing.
+            </p>
+        </div>
+
+
+        <!-- QUICK LINKS -->
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+
+            <ul class="footer-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!-- CONTACT -->
+        <div class="footer-column">
+            <h3>Contact Me</h3>
+
+            <p>
+                <i class="fas fa-map-marker-alt"></i>
+                Eldoret, Kenya
+            </p>
+
+            <p>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+254702277553">
+                    +254 702277553
+                </a>
+            </p>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:gracenganga293@gmail.com">
+                    gracenganga293@gmail.com
+                </a>
+            </p>
+        </div>
+
+
+        <!-- SOCIAL MEDIA -->
+        <div class="footer-column">
+            <h3>Follow Me</h3>
+
+            <p>Connect with me on social media.</p>
+
+            <div class="social-links">
+
+                <a href="https://www.facebook.com/share/19Keo3fbLY/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/itz_gracie2026?stkn=YnpscmZic2dtY2My"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@wambui..nganga?is_from_webapp=1&sender_device=pc"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="https://wa.me/qr/YQ4OACNUDE4ZH1"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a href="https://github.com/Gracie2004"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/grace-w-ng-ang-a-5a2b4636a"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
             </div>
         </div>
-    </div>
-</section>
 
-<footer>
-    <p>© 2026 Grace Nganga</p>
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="footer-bottom">
+        <p>
+            &copy;
+            <span id="year"></span>
+            Grace Ng'ang'a. All Rights Reserved.
+        </p>
+    </div>
+
 </footer>
 
-<script src="script.js"></script>
+
+<!-- AUTOMATIC YEAR -->
 
 <script>
-    const form = document.getElementById('contact-form');
-    const submitBtn = document.getElementById('submit-btn');
-    const successMsg = document.getElementById('form-success');
-    const errorMsg = document.getElementById('form-error');
-
-    form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-
-        submitBtn.textContent = 'Sending...';
-        submitBtn.disabled = true;
-        successMsg.style.display = 'none';
-        errorMsg.style.display = 'none';
-
-        const data = new FormData(form);
-
-        try {
-            const response = await fetch(form.action, {
-                method: 'POST',
-                body: data,
-                headers: { 'Accept': 'application/json' }
-            });
-
-            if (response.ok) {
-                successMsg.style.display = 'block';
-                form.reset();
-            } else {
-                errorMsg.style.display = 'block';
-            }
-        } catch (error) {
-            errorMsg.style.display = 'block';
-        } finally {
-            submitBtn.textContent = 'Send';
-            submitBtn.disabled = false;
-        }
-    });
+    document.getElementById("year").textContent = new Date().getFullYear();
 </script>
- <!-- ================= WHATSAPP BUTTON ================= -->
-
-    <a href="https://wa.me/254702277553"
-        class="whatsapp-button"
-        target="_blank"
-        aria-label="Chat on WhatsApp">
-
-        <i class="fab fa-whatsapp"></i>
-
-    </a>
 
 
-    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
 
